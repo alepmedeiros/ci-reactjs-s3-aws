@@ -37,4 +37,4 @@ jobs:
         aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       
     - name: Deploy aws S3
-      run: aws s3 sync build/ s3://githubactionss3 --acl public-read --delete
+      run: aws s3 sync ./build s3://githubactionss3 --acl public-read --delete
