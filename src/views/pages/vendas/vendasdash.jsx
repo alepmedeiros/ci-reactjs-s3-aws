@@ -20,7 +20,7 @@ import {
   Col
 } from "reactstrap";
 // core components
-import HeaderGeneric from "components/Headers/HeaderGeneric";
+// import HeaderGeneric from "components/Headers/HeaderGeneric";
 import api from '../../../services/api';
 
 class VendasDash extends React.Component {
