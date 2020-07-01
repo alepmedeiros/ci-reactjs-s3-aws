@@ -21,7 +21,7 @@ import {
   Col
 } from "reactstrap";
 // core components
-// import HeaderGeneric from "components/Headers/HeaderGeneric";
+import HeaderGeneric from '../../../components/Headers/HeaderGeneric';
 import api from '../../../services/api';
 
 class Vendas extends React.Component {
@@ -249,7 +249,7 @@ class Vendas extends React.Component {
     
     return (
       <>
-        {/* <HeaderGeneric /> */}
+        <HeaderGeneric />
         {/* Page content */}
         <Container className=" mt--7" fluid>
           {/* Table */}
