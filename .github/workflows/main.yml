@@ -23,7 +23,9 @@ jobs:
     - name: Install Node.js Dependencies
       run: npm install
       
-    - run: npm run build    
+    - run: cat /home/runner/.npm/_logs/2020-07-01T17_17_55_394Z-debug.log
+      
+    - run: npm run build
     
     - name: Save build folder
       uses: actions/upload-artifact@v2
