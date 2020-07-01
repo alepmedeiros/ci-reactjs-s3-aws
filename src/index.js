@@ -34,7 +34,7 @@ import "assets/scss/argon-dashboard-pro-react.scss?v1.0.0";
 
 import AdminLayout from "layouts/Admin.jsx";
 import AuthLayout from "layouts/Auth.jsx";
-import IndexView from "views/Index.jsx";
+// import IndexView from "views/Index.jsx";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -42,7 +42,7 @@ ReactDOM.render(
       <Route path="/admin" render={props => <AdminLayout {...props} />} />
       <Route path="/auth" render={props => <AuthLayout {...props} />} />
       <Route path="/" render={props => <IndexView {...props} />} />
-      <Redirect from="*" to="/" />
+      <Redirect from="*" to="/admin/dashboard" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
