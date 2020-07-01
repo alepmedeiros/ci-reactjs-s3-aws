@@ -39,6 +39,8 @@ import Typography from "views/pages/components/Typography.jsx";
 import Validation from "views/pages/forms/Validation.jsx";
 import Vector from "views/pages/maps/Vector.jsx";
 import Widgets from "views/pages/Widgets.jsx";
+import VendasDash from "views/pages/vendas/vendasdash.jsx";
+import Vendas from "views/pages/vendas/Vendas.jsx";
 
 const routes = [
   {
@@ -245,6 +247,20 @@ const routes = [
         layout: "/admin"
       }
     ]
+  },
+  {
+    path: "/vendas",
+    name: "Vendas",
+    icon: "ni ni-archive-2 text-green",
+    component: Vendas,
+    layout: "/admin"
+  },
+  {
+    path: "/vendasdash",
+    name: "Vendas Dash",
+    icon: "ni ni-archive-2 text-green",
+    component: VendasDash,
+    layout: "/admin"
   },
   {
     path: "/widgets",
