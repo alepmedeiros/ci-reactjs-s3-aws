@@ -1,3 +1,19 @@
+/*!
+
+=========================================================
+* Argon Dashboard PRO React - v1.0.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard-pro-react
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
 import Alternative from "views/pages/dashboards/Alternative.jsx";
 import Buttons from "views/pages/components/Buttons.jsx";
 import Calendar from "views/pages/Calendar.jsx";
@@ -23,8 +39,6 @@ import Typography from "views/pages/components/Typography.jsx";
 import Validation from "views/pages/forms/Validation.jsx";
 import Vector from "views/pages/maps/Vector.jsx";
 import Widgets from "views/pages/Widgets.jsx";
-import VendasDash from "views/pages/vendas/vendasdash.jsx";
-import Vendas from "views/pages/vendas/Vendas.jsx";
 
 const routes = [
   {
@@ -237,20 +251,6 @@ const routes = [
     name: "Widgets",
     icon: "ni ni-archive-2 text-green",
     component: Widgets,
-    layout: "/admin"
-  },
-  {
-    path: "/vendas",
-    name: "Vendas",
-    icon: "ni ni-archive-2 text-green",
-    component: Vendas,
-    layout: "/admin"
-  },
-  {
-    path: "/vendasdash",
-    name: "Vendas Dash",
-    icon: "ni ni-archive-2 text-green",
-    component: VendasDash,
     layout: "/admin"
   },
   {
