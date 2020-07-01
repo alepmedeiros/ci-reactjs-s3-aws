@@ -17,3 +17,9 @@ jobs:
         run: npm install
         
       - run: npm run build
+
+      - name: Save buid
+        uses: actions/upload-artifact@v2
+        with:
+          path: build
+          name: build
